@@ -18,11 +18,30 @@ public class BookService {
 		
 	}
 	
-	public Optional<BookModel> getBootById(){
+	public Optional<BookModel> getBootById(Long id){
+		
+	}
+	
+	public List<BookModel> getBookByAuthor(String author){
+		
+	}
+	
+	public List<BookModel> getBookByGenre(String genre){
+		
+	}
+	
+	public List<BookModel> getBookByPublicationYear(int publicationYear){
 		
 	}
 	
 	public Optional<BookModel> update(Long id, BookModel bookDetails){
 		
 	}
+	
+	public boolean delete(Long id) {
+		
+	}
+	
+	
+	
 }

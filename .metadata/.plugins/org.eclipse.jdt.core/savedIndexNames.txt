@@ -59,7 +59,6 @@ INDEX VERSION 1.134+C:\Users\marcos\Documents\programming\Spring-boot-Library\.m
 244078276.index
 3722801220.index
 3883068312.index
-1254236146.index
 171945828.index
 1649271841.index
 3198584225.index
