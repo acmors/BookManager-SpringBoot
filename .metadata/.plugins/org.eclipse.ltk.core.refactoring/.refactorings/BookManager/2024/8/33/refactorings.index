@@ -1,3 +1,5 @@
 1723681125418	Rename type 'BookManagerModel'
 1723681518274	Rename type 'BookReposiroty'
 1723681524774	Delete element
+1723718699045	Rename type 'BookModel'
+1723719007748	Rename package 'com.bookManager.model'

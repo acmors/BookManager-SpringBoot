@@ -1,0 +1,54 @@
+package com.bookManager.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bookManager.entity.Book;
+import com.bookManager.repository.BookRepository;
+
+@Service
+public class BookService {
+	
+	@Autowired
+	private BookRepository bookRepository;
+	
+	
+	
+	public Book save(Book book) {
+		return bookRepository.save(book);
+	}
+	
+	public List<Book> list(){
+		
+	}
+	
+	public Optional<Book> getBootById(Long id){
+		
+	}
+	
+	public List<Book> getBookByAuthor(String author){
+		
+	}
+	
+	public List<Book> getBookByGenre(String genre){
+		
+	}
+	
+	public List<Book> getBookByPublicationYear(int publicationYear){
+		
+	}
+	
+	public Optional<Book> update(Long id, Book bookDetails){
+		
+	}
+	
+	public boolean delete(Long id) {
+		
+	}
+	
+	
+	
+}
