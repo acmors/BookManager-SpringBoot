@@ -20,37 +20,45 @@ public class BookService {
 	
 
 	public Book save(Book book) {
-		bookRepository.save(book);
-		return list();
+		return bookRepository.save(book);
 	}
 	
 	public List<Book> list(){
-		Sort sort = Sort.by("genre").descending().and(Sort.by("author").ascending());
+		Sort sort = Sort.by("name").descending().and(Sort.by("author").ascending());
 		return bookRepository.findAll(sort);
 	}
 	
 	public Optional<Book> getBootById(Long id){
-		
+		return bookRepository.findById(id);
 	}
 	
 	public List<Book> getBookByAuthor(String author){
-		
+		return bookRepository.findByAuthor(author);
 	}
 	
 	public List<Book> getBookByGenre(String genre){
-		
+		return bookRepository.findByGenre(genre);
 	}
 	
-	public List<Book> getBookByPublicationYear(int publicationYear){
-		
+	public List<Book> getBookByPublicationYear(String publicationYear){
+		return bookRepository.findByPublicationYear(publicationYear);
 	}
 	
 	public Optional<Book> update(Long id, Book bookDetails){
-		
+		return bookRepository.findById(id).map(bookExistent -> {
+			bookExistent.setTitle(bookDetails.getTitle());
+			bookExistent.setAuthor(bookDetails.getAuthor());
+			bookExistent.setGenre(bookDetails.getGenre());
+			bookExistent.setPublicationYear(bookDetails.getPublicationYear());
+			return bookRepository.save(bookExistent);
+		});
 	}
 	
 	public boolean delete(Long id) {
-		
+		return bookRepository.findById(id).map(book -> {
+			bookRepository.delete(book);
+			return true;
+		}).orElse(false);
 	}
 	
 	
