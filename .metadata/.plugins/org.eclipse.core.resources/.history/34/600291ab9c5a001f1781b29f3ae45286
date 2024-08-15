@@ -1,0 +1,12 @@
+package com.bookManager.model;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class BookModel {
+	
+	private String id;
+	private String author;
+	private String genre;
+	private String publicationYear;
+}
