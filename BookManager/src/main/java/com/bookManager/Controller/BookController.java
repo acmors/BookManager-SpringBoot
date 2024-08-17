@@ -17,7 +17,7 @@ import com.bookManager.entity.Book;
 import com.bookManager.service.BookService;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/books")
 public class BookController {
 	
 	private BookService bookService;

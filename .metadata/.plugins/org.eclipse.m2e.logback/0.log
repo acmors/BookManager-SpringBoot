@@ -126,3 +126,10 @@
 2024-08-16 21:14:56,031 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-08-16 21:14:56,108 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-08-16 21:14:56,117 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marcos\Documents\programming\Spring-boot-Library\BookManager\src\test\resources
+2024-08-16 21:19:11,732 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-16 21:19:11,744 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-16 21:19:11,753 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marcos\Documents\programming\Spring-boot-Library\BookManager\src\test\resources
+2024-08-16 21:19:18,877 [Worker-18: Launching BookManager - BookManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-16 21:19:18,924 [Worker-18: Launching BookManager - BookManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-16 21:19:18,931 [Worker-18: Launching BookManager - BookManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marcos\Documents\programming\Spring-boot-Library\BookManager\src\test\resources
+2024-08-16 21:21:38,803 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookManager:BookManager:0.0.1-SNAPSHOT @ C:\Users\marcos\Documents\programming\Spring-boot-Library\BookManager\pom.xml.
