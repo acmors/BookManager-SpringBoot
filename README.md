@@ -1,6 +1,7 @@
 <h1>📚 Gerenciador de Livros</h1>
 
 <p>Este é um projeto de uma API REST para gerenciamento de livros, desenvolvido com Spring Boot. A aplicação permite criar, listar, atualizar e deletar livros.</p>
+<a href="https://youtu.be/Gc4G4wU_obg" target="_blank">Demonstração do Projeto</a>
 
 <h2>🚀 Tecnologias Utilizadas</h2>
     <ul>
